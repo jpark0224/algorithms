@@ -38,6 +38,10 @@ console.log(findOdd([1, 2, 2, 3, 3, 3, 4, 3, 3, 3, 2, 2, 1]));
 //       return parseInt(int);
 //     }
 //   }
+// This is because the loop goes through all the properties along the prototype chain.
+// https://stackoverflow.com/questions/684672/how-do-i-loop-through-or-enumerate-a-javascript-object
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
 // 3. Another way of writing intAppearancePair[int] = intAppearancePair[int] + 1 || 1;
 // obj[el] ? obj[el]++ : obj[el] = 1;
 // 4. The answer voted as the most clever is below:
