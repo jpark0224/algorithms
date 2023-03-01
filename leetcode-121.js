@@ -41,9 +41,6 @@ var maxProfit = function (prices) {
 // test case
 // [7,99999,6,1000,5,3,9999,1,4]
 
-// Why move left pointer to the right if the next index is bigger?
-// Because if there is a bigger value than the current index in the future, the difference between the smaller value and the bigger value will be bigger.
-
 // Can you just figure out the lowest value and biggest value?
 // You must use sort to figure out the lowest and biggest. Sorting itself is a big operation which slows down the runtime and takes up memory.
 
